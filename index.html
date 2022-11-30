@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sono:wght@256;546&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sono:wght@256&display=swap" rel="stylesheet">
+        <!-- End of google fonts -->
+
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="#contacts">Contact Me</a>
+            <a href="#goals">Goal</a>
+            <a href="#projects">Projects</a>
+            <a href="#intro">Introduction</a>
+        </div>
+        <div class="intro" id="intro">
+            <div class="title">
+                <h1 class="title-name">
+                    Hi. My name is Ian.
+                </h1>
+                <h3 class="title-desc">and I LOVE programming</h3>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h1 class="project-title">Projects I'm most proud of</h1>
+            <div class="projects-inner">
+                <div class="project" onclick="window.location.href = 'https://github.com/SlitherinPython/cs50-final-project' ">
+                    <div class="chill-picture-wrapper">
+                        <div class="project-picture chill-picture"></div>
+                    </div>
+                    <h2>Chill</h2>
+                    <p>A program I wrote that automatically prompts users to take breaks at preset intervals, with groove.</p>
+                </div>
+
+                <div class="project" onclick="window.location.href = 'https://github.com/SlitherinPython/automated-wordle/blob/main/automated_wordle_bot.py' ">
+                    <div class="project-picture wordle-picture"></div>
+                    <h2>Lord of Wordle</h2>
+                    <p>Tired of getting beaten by wordle? Fear no more. I cracked the code by engineering the perfect app that auto solves wordles. Download now to impress your buddies. </p>
+                </div>
+
+                <div class="project" onclick="window.location.href = 'https://github.com/SlitherinPython/auto-join-zoom/blob/main/guiJoinZoom.py' ">
+                    <div class="project-picture zoom-picture"></div>
+                    <h2>Zoom In On Time</h2>
+                    <p>My pandemic project - it allows users to auto join zoom meetings at preset times. The result: I was never late for any online classes, ever.</p>
+                </div>
+            </div>
+        </div>
+        <div class="horizon" id="goals">
+            <div class="horizon-skew"></div>
+            <div class="horizon-text">
+                <h1 class="horizon-title">What's on the horizon for me? </h1>
+                <p>I've been programming for over a year an a half now, and have definitely felt the true scale of the computer science world. 
+                    Theres tons of languages, frameworks, algorithms, etc, to learn, and that very passion and curiousity to find out more about
+                    something has led me to where I am today. My current goal is to persevere and master the most useful data 
+                    structures and algorithms, through lots of practice and hard work. 
+                </p>
+            </div>
+        </div>
+        <div class="contact" id="contacts">
+            <h1 class="contact-me">Contact Me</h1>
+            <div class="contacts">
+                <a href="mailto:yongjerlim@gmail.com" class="contact-children" id="contact1">Email</a>
+                <a href="https://discordapp.com/users/817175859071811585/" class="contact-children" id="contact2"
+                    target="_blank">Discord</a>
+                <a href="https://github.com/SlitherinPython" class="contact-children" id="contact3" target="_blank">Github</a>
+            </div>
+        </div>
+
+    </body>
+
+</html>
